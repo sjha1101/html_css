@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    margin: 0 auto;
+    height: 80px;
+    justify-content: center;
+    background-color: #1ccacd;
+}
+
+.nav h3 a {
+    font-size: 26px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 400px;
+    font-style: italic;
+    font-family: "Lato", sans-serif;
+}
+
+.nav ul {
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav li {
+    margin-top: 7px;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+}
+
+.container-1 {
+    height: 100px;
+    background: #f7f7f7;
+}
+
+.container-1 h1 {
+    background: #f7f7f7;
+    margin: 0 auto;
+    max-width: 50.5rem;
+    width: 100%;
+    padding: 1.2rem 0;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 2.75rem;
+    line-height: 1.4;
+}
+
+.container {
+    display: flex;
+}
+
+.startingside h4 {
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.startingside ul li:hover {
+    background-color: #f7f7f7;
+    color: #222222;
+}
+
+.startingside {
+    margin-left: 12.2%;
+    text-align: right;
+    font-size: 17px;
+    margin-top: 20px;
+}
+
+.startingside ul li {
+    color: #8A9191;
+    list-style-type: none;
+    padding: 13px;
+    font-size: 16px;
+}
+
+.rightside {
+    margin-top: 4%;
+    margin-left: 5.85%;
+    width: 50%;
+}
+
+.rightside h1 {
+    font-weight: 400;
+    font-size: 38px;
+}
+
+.rightside h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.rightside ul {
+    margin-top: 35px;
+    margin-left: 20px;
+}
+
+.rightside ul li {
+    padding: 3px;
+}
+
+.rightside p {
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 3px;
+    color: #555555;
+}
+
+.container-2 {
+    background-color: #f8f8f8;
+    height: 50vh;
+    width: 50vw;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.container-2 pre {
+    font-family: "Courier Prime", monospace;
+    margin-left: -10%;
+    margin-top: 20px;
+}
+
+blockquote {
+    margin-top: 10px;
+    margin-bottom: 1.25em;
+    padding: 1.25rem 1.25rem;
+    border-left: 7px solid #1ccacd;
+}
+
+.scroll {
+    overflow-x: scroll;
+    margin-top: 70px;
+}
+
+.rightside h4 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-h5 {
+    height: 100px;
+    background-color: #f7f7f7;
+    font-weight: 300;
+    color: #1ccacd;
+    font-size: 1rem;
+    margin: 37px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-h5 img {
+    height: 20px;
+    margin-left: 10px;
+}

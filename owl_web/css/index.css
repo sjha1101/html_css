@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "Lato", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+}
+
+.header {
+    height: 450px;
+    justify-content: center;
+    background-color: #1ccacd;
+}
+
+.nav h3 a {
+    font-size: 20px;
+    color: white;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 400px;
+    font-style: italic;
+    font-family: "Lato", sans-serif;
+}
+
+ul {
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    margin-top: 7px;
+    display: inline;
+    float: left;
+    text-align: center;
+    font-size: 13px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-family: "Lato", sans-serif;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 62.5rem;
+    width: 100%;
+    margin-top: 41px;
+}
+
+.container h1 {
+    font-weight: 300;
+    color: white;
+    font-style: normal;
+    margin-left: 115px;
+    font-size: 45px;
+}
+
+.container-1 {
+    font-size: 78px;
+    color: white;
+}
+
+.container h4 {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 1.3rem;
+    margin-left: 134px;
+    margin-left: 115px;
+}
+
+.container img {
+    height: 140px;
+    float: right;
+    margin-right: 170px;
+    margin-top: -75px;
+}
+
+.btn {
+    display: flex;
+}
+
+.btn-1 {
+    height: 26px;
+    width: 79px;
+    color: #1ccacd;
+    background-color: white;
+    padding: 1rem 2rem;
+    margin-left: 115px;
+    font-size: 1.250rem;
+    font-weight: 400;
+}
+
+.btn-1:hover {
+    color: white;
+    background-color: rgb(128, 14, 14);
+}
+
+.btn-2 {
+    height: 26px;
+    width: 79px;
+    color: white;
+    padding: 15px 33px;
+    margin-left: 14px;
+    font-size: 1.250rem;
+    font-weight: 400;
+    border: 1px solid white;
+}
+
+.btn-2:hover {
+    color: white;
+    background-color: rgb(128, 14, 14);
+}
+
+.container p {
+    color: #FFF;
+    margin: 0.5rem 0;
+    opacity: 0.7;
+    font-weight: 300;
+    margin-left: 137px;
+}
+
+.demo h3 {
+    font-weight: 300;
+    text-align: center;
+    color: #808080;
+    margin: 2rem;
+    font-size: 30px;
+}
+
+.demo-container {
+    padding: 2px 183px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.demo-item h2 {
+    height: 22px;
+    width: 262px;
+    padding: 1px 87px;
+    text-align: center;
+    justify-content: center;
+    color: #FFF;
+    background-color: #ff3f4d;
+    padding: 5rem 0;
+    margin: 0;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-right: 178px;
+    margin-left: 138px;
+    margin-top: 40px;
+}
+
+.grid-item {
+    margin-top: 40px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px 87px;
+    text-align: center;
+}
+
+.grid-item h4 {
+    font-size: 10px;
+}
+
+.grid-item p {
+    font-size: 16px;
+}
+
+hr {
+    width: 800px;
+    margin: 50px auto;
+    color: rgb(165, 165, 165);
+}
+
+.footer {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer h3 {
+    font-weight: 300;
+    color: #1ccacd;
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.footer-h6 {
+    font-weight: 300;
+    color: #1ccacd;
+    font-size: 1rem;
+    max-width: 800px;
+    margin: 37px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-h5 {
+    height: 100px;
+    background-color: #f7f7f7;
+    font-weight: 300;
+    color: #1ccacd;
+    font-size: 1rem;
+    margin: 37px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-h5 img {
+    height: 20px;
+    margin-left: 10px;
+}
